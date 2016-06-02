@@ -197,6 +197,9 @@ class CfgSounds
 
 #include "custom\right_click\extra_rc.hpp"
 
+#include "custom\advancedTrading\ZSCdefines.hpp" // if u don't have it from ZSC
+#include "custom\advancedTrading\advancedTrading.hpp"
+
 #include "custom\snap_pro\snappoints.hpp"
 #include "custom\character_select\RscDisplayCharacterSelect.hpp"
 #include "custom\gui\hud.hpp"

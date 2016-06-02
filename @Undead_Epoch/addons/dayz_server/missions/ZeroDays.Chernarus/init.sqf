@@ -1697,7 +1697,6 @@ AllowedVehiclesList = [
 
 	if(["Land_",(_x select 0)] call KK_fnc_inString) then {
 		missionObjects set[_forEachIndex,-1];
-		_serverobjects set[count _serverObjects,_x];
 	} else {
 		_object = (_x select 0) createVehicleLocal[0,0,0];
 		_object setDir (_x select 2);
@@ -1749,7 +1748,9 @@ for "_i" from 1 to _dynamic_military do {
 	_object setPos (_x select 1);
 	_object allowDammage false;
 	_object enableSimulation false;
-} count (_military + _serverobjects);
+} 
+
+count (_military);
 
 init_done = true;
 publicVariable "init_done";

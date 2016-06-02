@@ -61,7 +61,7 @@
 /*  ALLOWED Custom Dialogs "_ALLOWED_Dialogs" are only used if you have "_CUD = true;"  */
 /*  If you want install custom scripts using dialog windows, you can add IDD numbers  */
 /*  from the custom script's desc.h file included through MPMIssions/description.ext  */
-_ALLOWED_Dialogs = [-1,106,2200,6900,6901,6902,6903,420420,41144,711194,81000,64,1001,1002,101,1];
+_ALLOWED_Dialogs = [-1,106,2200,6900,6901,6902,6903,420420,41144,711194,711197,81000,64,1001,1002,101,1];
 //	-1			Epoch Safe/Lockbox Keycode UI
 //	106		Inventory (Gear)
 //	2200		Blood Test
@@ -73,7 +73,9 @@ _ALLOWED_Dialogs = [-1,106,2200,6900,6901,6902,6903,420420,41144,711194,81000,64
 //	4444		Radio Communication
 //	65431,65432,65433,65434,65440,65441,65442		R3F ARTY Lift/Tow/Transport.
 //	711194	Plot Management	(http://epochmod.com/forum/index.php?/topic/16166-release-plot-management/)
+//  711197 	AdvancedTrading
 // 	81000	EpochPacks
+
 
 /*  Player that have one of these items in their inventory will get punished!  */
 _ForbiddenItems =
